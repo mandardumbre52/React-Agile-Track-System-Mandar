@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Employee Three",
+      "email": "employee3@example.com",
+      "password": "password3",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "name": "Mandar",
+      "email": "mandardumbre52@gmail.com",
+      "password": "mandar@52",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": "Raj",
+      "email": "raj@gmail.com",
+      "password": "raj123",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "name": "Pratik",
+      "email": "pratik1668@gmail.com",
+      "password": "Mandar@52",
+      "role": "employee",
+      "id": 7
+    }
+  ],
+  "scrums": [
+    {
+      "id": 1,
+      "name": "Scrum Team A"
+    },
+    {
+      "id": 2,
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": 3
+    },
+    {
+      "name": "Development Team",
+      "id": 4
+    },
+    {
+      "name": "Marketing Campaign Team",
+      "id": 5
+    },
+    {
+      "name": "Task 4",
+      "id": 6
+    },
+    {
+      "name": "Task 5",
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "To Do",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-13"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-13"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "Done",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-13"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "In Progress",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-13"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "Implement User Authentication",
+      "description": "Create login and signup functionality for users, including validation and error handling.",
+      "status": "In Progress",
+      "scrumId": 4,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-13"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-13"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-13"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-14"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-14"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "Launch Social Media Ads",
+      "description": "Create and schedule ads for Facebook and Instagram to promote the new product launch.",
+      "status": "In Progress",
+      "scrumId": 5,
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-13"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-13"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-14"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "Scrum",
+      "description": "Scrum ",
+      "status": "In Progress",
+      "scrumId": 6,
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-14"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-15"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "Task",
+      "description": "Scrum ",
+      "status": "To Do",
+      "scrumId": 7,
+      "assignedTo": "7",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-14"
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
